@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { cribs } from './../data/cribs';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Listing-App...';
+  cribs: Array<any> = cribs;
 }
